@@ -3,8 +3,10 @@
 } */
 body{
     font-family: 'GFS Didot', serif;
-
+    background-color: #061F3E;
+    color:#e1e1e1;
 }
+
 .container{
     /* vertical-align: middle; */
     position: absolute;
@@ -22,12 +24,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5vw;
-   
+    width:80%;
 }
 
 a{
     text-decoration: none;
-    color: black
+    color:#e1e1e1;
 }
 /* 2nd page */
 
