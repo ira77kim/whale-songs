@@ -126,10 +126,8 @@ samplePlay();
 function samplePlay(){
     orca.play();
     orca.setVolume(0.3);
-    // blue.play();
-    // fin.play();
-    // hump.play();
-    // minke.play();
-    
-    console.log("this this this", size[0]);
+    blue.play();
+    fin.play();
+    hump.play();
+    minke.play();
 }
