@@ -10,7 +10,7 @@ if(currentM.toString().length==1){
 }
 
 let currentD = d.getDate();
-if(currentD.toString.length==1){
+if(currentD.toString().length==1){
     currentD='0'+currentD;
 }
 console.log(currentY,currentM+1,currentD);
