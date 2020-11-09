@@ -108,10 +108,14 @@ function getData() {
         console.log("delaytime is: ", delaytime[i]);
       }
       
-      
-      for(let i=0;i<length; i++){
-        setTimeout(selectwhale(size[i],distance[i]),delaytime[i]);
-      }
+      document.addEventListener('click', function(){
+        for(let i=0;i<length; i++){
+          setTimeout(selectwhale(size[i],distance[i]),delaytime[i]);
+        }
+      });
+      // for(let i=0;i<length; i++){
+      //   setTimeout(selectwhale(size[i],distance[i]),delaytime[i]);
+      // }
 
     })      
     .catch(function(resp) {      
